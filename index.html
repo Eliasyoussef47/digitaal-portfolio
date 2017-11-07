@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Elias Youssef - Portfolio</title>
+<meta name="description" content="Elias Youssef's portfolio">
+<meta name="keywords" content="HTML,CSS,JavaScript,Portfolio">
+<meta name="author" content="Elias Youssef">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="grfx/css/style.css">
+<link rel="stylesheet" href="grfx/icons/font-awesome/css/font-awesome.min.css">
+<script src="scripts/js/script.js"></script>
+<!-- <meta http-equiv="refresh" content="3"> -->
+</head>
+<body>
+
+<header id="header">
+  <div id="triHeader">
+    <h1 id="title">Portfolio</h1>
+    <img id="navButton" onclick="dropMenu()" src="grfx/icons/icons8-expand-arrow.png" alt="Expnd Nav Menu">
+  </div>
+  <nav id="nav">
+    <ul id="navList">
+
+      <a href="subPages/overmij.html" class="navItem" onmouseover="rotate1()" onmouseout="normal1()" id="navItemOverMij">
+        <li  class="navListItem">
+          <span class="fa fa-user fa-fw faIcon" id="ovemijSpan" aria-hidden="true"></span>
+          overmij
+        </li>
+      </a>
+
+      <li class="liBorder"></li>
+
+      <a href="subPages/opleiding.html" class="navItem" onmouseover="rotate2()" onmouseout="normal2()" id="navItemOpleiding">
+        <li  class="navListItem">
+          <span class="fa fa-graduation-cap fa-fw faIcon" id="opleidingSpan" aria-hidden="true"></span>
+          opleiding
+        </li>
+      </a>
+
+      <li class="liBorder"></li>
+
+      <a href="subPages/beroep.html" class="navItem" onmouseover="rotate3()" onmouseout="normal3()" id="navItemBeroep">
+        <li  class="navListItem">
+          <span class="fa fa-briefcase fa-fw faIcon" id="beroepgSpan" aria-hidden="true"></span>
+          beroep
+        </li>
+      </a>
+
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <a href="subPages/overmij.html" class="articleContainer">
+    <article id="article1" class="article" onmouseover="rotate1()" onmouseout="normal1()">
+      <section class="articleImage" id="articleImageOvermij"></section>
+      <section class="articleText">
+        <h2 class="articleTexth2">overmij</h2>
+        <p class="articleTextp">Informatie over mij, CV, Hobbies en meer.</p>
+      </section>
+    </article>
+  </a>
+
+  <a href="subPages/opleiding.html" class="articleContainer">
+    <article id="article2" class="article" class="navItem" onmouseover="rotate2()" onmouseout="normal2()">
+      <section class="articleImage" id="articleImageOpleiding"></section>
+      <section class="articleText">
+        <h2 class="articleTexth2">opleiding</h2>
+        <p class="articleTextp">De opdrachten, vakken en projecten die ik in mijn opleiding doe.</p>
+      </section>
+    </article>
+  </a>
+
+  <a href="subPages/beroep.html" class="articleContainer">
+    <article id="article3" class="article" class="navItem" onmouseover="rotate3()" onmouseout="normal3()">
+      <section class="articleImage" id="articleImageBeroep"></section>
+      <section class="articleText">
+        <h2 class="articleTexth2">beroep</h2>
+        <p class="articleTextp">Over het beroep waarvoor ik opgeleid wordt</p>
+      </section>
+    </article>
+  </a>
+
+</main>
+
+<footer id="footer">
+  <div id="triFooter">
+    Elias Youssef
+    <a href="https://icons8.com">Icon pack by Icons8</a>
+  </div>
+</footer>
+
+</body>
+</html>
